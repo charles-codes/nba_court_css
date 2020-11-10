@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.court{
+  width: 1128px;
+  height: 600px;
+  border: solid black 2px;
+}
+
+.midcourt {
+  width: 564px;
+  height: 598px;
+  border-right: solid black 2px;
+}
