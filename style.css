@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/* wrapper div with class of court */
 .court{
   width: 1128px;
   height: 600px;
@@ -12,4 +13,25 @@
   width: 564px;
   height: 598px;
   border-right: solid black 2px;
+}
+
+.innercentercourt {
+  width: 24px;
+  height: 24px;
+  border: solid 2px black;
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+  top: 300px;
+  left: 561px;
+}
+
+.outercentercourt {
+  width: 72px;
+  height: 72px;
+  border: solid 2px black;
+  border-radius: 50%;
+  position: absolute;
+  top: 275px;
+  left: 536px;
 }
