@@ -1,3 +1,7 @@
+:root {
+  --red: rgb(230, 45, 45);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -11,6 +15,28 @@
   outline: solid 10px black;
 }
 
+.rose {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+}
+
+.rose_top {
+  top: 60px;
+  left: 400px;
+
+  transform: rotate(105deg);
+
+  filter: invert(36%) sepia(28%) saturate(5044%) hue-rotate(342deg) brightness(68%) contrast(101%);
+}
+
+.rose_bottom {
+  top: 470px;
+  left: 650px;
+
+  transform: rotate(-50deg);
+}
+
 /* midcourt <div> to divide the court in half */
 .midcourt {
   width: 564px;
@@ -22,10 +48,11 @@
 .innercentercourt {
   width: 24px;
   height: 24px;
-  border: solid 2px black;
+  border: solid 2px gray;
+  opacity: 50%;
   border-radius: 50%;
-  z-index: 1;
   position: absolute;
+  z-index: 1;
   top: 300px;
   left: 561px;
 }
@@ -33,16 +60,27 @@
 .outercentercourt {
   width: 72px;
   height: 72px;
-  border: solid 2px black;
+  border: solid 2px gray;
+  opacity: 50%;
   border-radius: 50%;
   position: absolute;
+  z-index: 1;
   top: 275px;
   left: 536px;
 }
 
+.centerCourtLogo {
+  width: 400px;
+  height: 400px;
+
+  position: absolute;
+  top: 114px;
+  left: 374px;
+}
+
 /* rectangular <div> for the lanes */
 .lane {
-  background-color: red;
+  background-color: var(--red);
 }
 
 .leftlane {
