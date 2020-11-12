@@ -9,12 +9,14 @@
   border: solid black 2px;
 }
 
+/* midcourt div to divide the court in half */
 .midcourt {
   width: 564px;
   height: 598px;
   border-right: solid black 2px;
 }
 
+/* center court circle comprised of an inner circle and and outer circle */
 .innercentercourt {
   width: 24px;
   height: 24px;
@@ -57,4 +59,32 @@
   position: absolute;
   top: 240px;
   right: 269px;
+}
+
+.leftLaneHalfCircle_1 {
+  width: 144px;
+  height: 144px;
+  border: solid 2px black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(43deg);
+
+  position: absolute;
+  top: 240px;
+  left: 162px;
+}
+
+.leftLaneHalfCircle_2 {
+  width: 144px;
+  height: 144px;
+  border: dashed 2px black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-130deg);
+
+  position: absolute;
+  top: 240px;
+  left: 162px;
 }
