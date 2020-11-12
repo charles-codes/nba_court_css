@@ -35,3 +35,26 @@
   top: 275px;
   left: 536px;
 }
+
+.leftlane {
+  width: 228px;
+  height: 144px;
+  border-top: solid 2px black;
+  border-right: solid 2px black;
+  border-bottom: solid 2px black;
+
+  position: absolute;
+  top: 240px;
+}
+
+.rightlane {
+  width: 228px;
+  height: 144px;
+  border-top: solid 2px black;
+  border-left: solid 2px black;
+  border-bottom: solid 2px black;
+
+  position: absolute;
+  top: 240px;
+  right: 269px;
+}
