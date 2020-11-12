@@ -2,16 +2,13 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 1320px;
-  height: 720px;
-}
-
 /* wrapper <div> with class of court */
 .court{
   width: 1128px;
   height: 600px;
   border: solid black 2px;
+  background-image: url(images/bg-court.jpg);
+  outline: solid 10px black;
 }
 
 /* midcourt <div> to divide the court in half */
@@ -44,6 +41,10 @@ body {
 }
 
 /* rectangular <div> for the lanes */
+.lane {
+  background-color: red;
+}
+
 .leftlane {
   width: 228px;
   height: 144px;
@@ -160,8 +161,8 @@ body {
 .leftThreePointBox {
   width: 128px;
   height: 504px;
-  border-top: solid 2px black;
-  border-bottom: solid 2px black;
+  border-top: solid 2px red;
+  border-bottom: solid 2px red;
 
   position: absolute;
   top: 54px;
@@ -170,8 +171,8 @@ body {
 .rightThreePointBox {
   width: 128px;
   height: 504px;
-  border-top: solid 2px black;
-  border-bottom: solid 2px black;
+  border-top: solid 2px red;
+  border-bottom: solid 2px red;
 
   position: absolute;
   top: 54px;
@@ -181,7 +182,7 @@ body {
 .leftThreePointArc {
   width: 504px;
   height: 504px;
-  border: solid 2px black;
+  border: solid 2px red;
   border-radius: 50%;
   border-bottom-color: transparent;
   border-left-color: transparent;
@@ -195,7 +196,7 @@ body {
 .rightThreePointArc {
   width: 504px;
   height: 504px;
-  border: solid 2px black;
+  border: solid 2px red;
   border-radius: 50%;
   border-bottom-color: transparent;
   border-left-color: transparent;
