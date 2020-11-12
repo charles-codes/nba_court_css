@@ -27,7 +27,7 @@
 
   transform: rotate(105deg);
 
-  filter: invert(36%) sepia(28%) saturate(5044%) hue-rotate(342deg) brightness(68%) contrast(101%);
+  /* filter: invert(36%) sepia(28%) saturate(5044%) hue-rotate(342deg) brightness(68%) contrast(101%); */
 }
 
 .rose_bottom {
@@ -197,8 +197,8 @@
 .leftThreePointBox {
   width: 128px;
   height: 504px;
-  border-top: solid 2px black;
-  border-bottom: solid 2px black;
+  border-top: solid 2px var(--red);
+  border-bottom: solid 2px var(--red);
 
   position: absolute;
   top: 54px;
@@ -207,8 +207,8 @@
 .rightThreePointBox {
   width: 128px;
   height: 504px;
-  border-top: solid 2px black;
-  border-bottom: solid 2px black;
+  border-top: solid 2px var(--red);
+  border-bottom: solid 2px var(--red);
 
   position: absolute;
   top: 54px;
@@ -218,7 +218,7 @@
 .leftThreePointArc {
   width: 504px;
   height: 504px;
-  border: solid 2px black;
+  border: solid 2px var(--red);
   border-radius: 50%;
   border-bottom-color: transparent;
   border-left-color: transparent;
@@ -232,7 +232,7 @@
 .rightThreePointArc {
   width: 504px;
   height: 504px;
-  border: solid 2px black;
+  border: solid 2px var(--red);
   border-radius: 50%;
   border-bottom-color: transparent;
   border-left-color: transparent;
@@ -248,7 +248,7 @@
 .topLeftHash {
   width: 36px;
   height: 36px;
-  border-right: solid 2px black;
+  border-right: solid 2px var(--red);
 
   position: absolute;
   top: 10px;
@@ -258,7 +258,7 @@
 .bottomLeftHash {
   width: 36px;
   height: 36px;
-  border-right: solid 2px black;
+  border-right: solid 2px var(--red);
 
   position: absolute;
   top: 570px;
@@ -268,7 +268,7 @@
 .topRightHash {
   width: 36px;
   height: 36px;
-  border-right: solid 2px black;
+  border-right: solid 2px var(--red);
 
   position: absolute;
   top: 10px;
@@ -278,7 +278,7 @@
 .bottomRightHash {
   width: 36px;
   height: 36px;
-  border-right: solid 2px black;
+  border-right: solid 2px var(--red);
 
   position: absolute;
   top: 570px;
