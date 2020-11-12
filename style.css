@@ -88,3 +88,31 @@
   top: 240px;
   left: 162px;
 }
+
+.rightLaneHalfCircle_1 {
+  width: 144px;
+  height: 144px;
+  border: dashed 2px black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(43deg);
+
+  position: absolute;
+  top: 240px;
+  right: 422px;
+}
+
+.rightLaneHalfCircle_2 {
+  width: 144px;
+  height: 144px;
+  border: solid 2px black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-130deg);
+
+  position: absolute;
+  top: 240px;
+  right: 422px;
+}
