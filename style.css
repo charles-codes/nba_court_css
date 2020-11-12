@@ -2,14 +2,14 @@
   box-sizing: border-box;
 }
 
-/* wrapper div with class of court */
+/* wrapper <div> with class of court */
 .court{
   width: 1128px;
   height: 600px;
   border: solid black 2px;
 }
 
-/* midcourt div to divide the court in half */
+/* midcourt <div> to divide the court in half */
 .midcourt {
   width: 564px;
   height: 598px;
@@ -38,6 +38,7 @@
   left: 536px;
 }
 
+/* rectangular <div> for the lanes */
 .leftlane {
   width: 228px;
   height: 144px;
@@ -61,6 +62,7 @@
   right: 269px;
 }
 
+/* free throw shooting zone circles for the lanes */
 .leftLaneHalfCircle_1 {
   width: 144px;
   height: 144px;
@@ -115,4 +117,27 @@
   position: absolute;
   top: 240px;
   right: 422px;
+}
+
+/* <div> used for creating the three point lines */
+
+.leftThreePointBox {
+  width: 168px;
+  height: 504px;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+
+  position: absolute;
+  top: 54px;
+}
+
+.rightThreePointBox {
+  width: 168px;
+  height: 504px;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+
+  position: absolute;
+  top: 54px;
+  right: 269px;
 }
