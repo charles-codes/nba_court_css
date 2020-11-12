@@ -122,7 +122,7 @@
 /* <div> used for creating the three point lines */
 
 .leftThreePointBox {
-  width: 168px;
+  width: 128px;
   height: 504px;
   border-top: solid 2px black;
   border-bottom: solid 2px black;
@@ -132,7 +132,7 @@
 }
 
 .rightThreePointBox {
-  width: 168px;
+  width: 128px;
   height: 504px;
   border-top: solid 2px black;
   border-bottom: solid 2px black;
@@ -140,4 +140,32 @@
   position: absolute;
   top: 54px;
   right: 269px;
+}
+
+.leftThreePointArc {
+  width: 504px;
+  height: 504px;
+  border: solid 2px black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(45deg);
+
+  position: absolute;
+  top: 54px;
+  left: -115px;
+}
+
+.rightThreePointArc {
+  width: 504px;
+  height: 504px;
+  border: solid 2px black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-135deg);
+
+  position: absolute;
+  top: 54px;
+  right: 140px;
 }
