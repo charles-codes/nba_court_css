@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+
+/* wrapper <div> with class of court */
+.court{
+  width: 70.5em;
+  height: 37.5em;
+  border: solid black 0.125em;
+
+  position: fixed;
+}
+
+/* midcourt <div> to divide the court in half */
+.midcourt {
+  width: 35.25em;
+  height: 37.375em;
+  border-right: solid black 0.125em;
+}
+
+/* center court circle comprised of an inner circle and and outer circle */
+.innercentercourt {
+  width: 1.5em;
+  height: 1.5em;
+  border: solid 0.125em black;
+  border-radius: 50%;
+  z-index: 1;
+  position: fixed;
+  top: 18.75em;
+  left: 35.0625em;
+}
+
+.outercentercourt {
+  width: 4.5em;
+  height: 4.5em;
+  border: solid 0.125em black;
+  border-radius: 50%;
+  position: fixed;
+  top: 17.1875em;
+  left: 33.5em;
+}
+
+/* rectangular <div> for the lanes */
+.leftlane {
+  width: 14.25em;
+  height: 9em;
+  border-top: solid 0.125em black;
+  border-right: solid 0.125em black;
+  border-bottom: solid 0.125em black;
+
+  position: fixed;
+  top: 15em;
+}
+
+.rightlane {
+  width: 14.25em;
+  height: 9em;
+  border-top: solid 0.125em black;
+  border-left: solid 0.125em black;
+  border-bottom: solid 0.125em black;
+
+  position: fixed;
+  top: 15em;
+  right: 16.8125em;
+}
+
+/* free throw shooting zone circles for the lanes */
+.leftLaneHalfCircle_1 {
+  width: 9em;
+  height: 9em;
+  border: solid 0.125em black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(43deg);
+
+  position: fixed;
+  top: 15em;
+  left: 10.125em;
+}
+
+.leftLaneHalfCircle_2 {
+  width: 9em;
+  height: 9em;
+  border: dashed 0.125em black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-130deg);
+
+  position: fixed;
+  top: 15em;
+  left: 10.125em;
+}
+
+.rightLaneHalfCircle_1 {
+  width: 9em;
+  height: 9em;
+  border: dashed 0.125em black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(43deg);
+
+  position: fixed;
+  top: 15em;
+  right: 26.375em;
+}
+
+.rightLaneHalfCircle_2 {
+  width: 9em;
+  height: 9em;
+  border: solid 0.125em black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-130deg);
+
+  position: fixed;
+  top: 15em;
+  right: 26.375em;
+}
+
+/* half circle <div> for restricted zones */
+
+.leftRestrictedZone {
+  width: 6em;
+  height: 6em;
+  border: solid 0.125em black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(44deg);
+
+  position: fixed;
+  top: 16.5625em;
+  left: 1em;
+}
+
+.rightRestrictedZone {
+  width: 6em;
+  height: 6em;
+  border: solid 0.125em black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-136deg);
+
+  position: fixed;
+  top: 16.5625em;
+  right: 16.875em;
+}
+
+/* <div> used for creating the three point lines */
+
+.leftThreePointBox {
+  width: 8em;
+  height: 31.5em;
+  border-top: solid 0.125em black;
+  border-bottom: solid 0.125em black;
+
+  position: fixed;
+  top: 3.375em;
+}
+
+.rightThreePointBox {
+  width: 8em;
+  height: 31.5em;
+  border-top: solid 0.125em black;
+  border-bottom: solid 0.125em black;
+
+  position: fixed;
+  top: 3.375em;
+  right: 16.8125em;
+}
+
+.leftThreePointArc {
+  width: 31.5em;
+  height: 31.5em;
+  border: solid 0.125em black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(45deg);
+
+  position: fixed;
+  top: 3.375em;
+  left: -7.1875em;
+}
+
+.rightThreePointArc {
+  width: 31.5em;
+  height: 31.5em;
+  border: solid 0.125em black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-135deg);
+
+  position: fixed;
+  top: 3.375em;
+  right: 8.75em;
+}
+
+/* hashmarks */
+
+.topLeftHash {
+  width: 2.25em;
+  height: 2.25em;
+  border-right: solid 0.125em black;
+
+  position: fixed;
+  top: 0.625em;
+  left: 22.5em;
+}
+
+.bottomLeftHash {
+  width: 2.25em;
+  height: 2.25em;
+  border-right: solid 0.125em black;
+
+  position: fixed;
+  top: 570px;
+  left: 22.5em;
+}
+
+.topRightHash {
+  width: 2.25em;
+  height: 2.25em;
+  border-right: solid 0.125em black;
+
+  position: fixed;
+  top: 0.625em;
+  right: 40.3125em;
+}
+
+.bottomRightHash {
+  width: 2.25em;
+  height: 2.25em;
+  border-right: solid 0.125em black;
+
+  position: fixed;
+  top: 570px;
+  right: 40.3125em;
+}
