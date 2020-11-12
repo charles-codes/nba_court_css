@@ -119,6 +119,36 @@
   right: 422px;
 }
 
+/* half circle <div> for restricted zones */
+
+.leftRestrictedZone {
+  width: 96px;
+  height: 96px;
+  border: solid 2px black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(44deg);
+
+  position: absolute;
+  top: 265px;
+  left: 16px;
+}
+
+.rightRestrictedZone {
+  width: 96px;
+  height: 96px;
+  border: solid 2px black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-136deg);
+
+  position: absolute;
+  top: 265px;
+  right: 270px;
+}
+
 /* <div> used for creating the three point lines */
 
 .leftThreePointBox {
