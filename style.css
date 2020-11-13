@@ -57,7 +57,7 @@
   height: 130px;
 
   position: absolute;
-  top: 235px;
+  top: 225px;
   left: -169px;
 
   transform: rotate(-90deg);
@@ -68,7 +68,7 @@
   height: 130px;
 
   position: absolute;
-  top: 255px;
+  top: 245px;
   left: 1004px;
 
   transform: rotate(90deg);
@@ -110,7 +110,7 @@
   border-radius: 50%;
   position: absolute;
   z-index: 1;
-  top: 300px;
+  top: 290px;
   left: 561px;
 }
 
@@ -122,17 +122,17 @@
   border-radius: 50%;
   position: absolute;
   z-index: 1;
-  top: 275px;
+  top: 265px;
   left: 536px;
 }
 
 .centerCourtLogo {
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
 
   position: absolute;
-  top: 114px;
-  left: 374px;
+  top: 80px;
+  left: 348px;
 }
 
 /* rectangular <div> for the lanes */
@@ -148,7 +148,7 @@
   border-bottom: solid 2px black;
 
   position: absolute;
-  top: 240px;
+  top: 232px;
 }
 
 .rightlane {
@@ -159,7 +159,7 @@
   border-bottom: solid 2px black;
 
   position: absolute;
-  top: 240px;
+  top: 232px;
   left: 896px;
 }
 
@@ -174,7 +174,7 @@
   transform: rotate(45deg);
 
   position: absolute;
-  top: 240px;
+  top: 232px;
   left: 156px;
 }
 
@@ -188,7 +188,7 @@
   transform: rotate(-134deg);
 
   position: absolute;
-  top: 240px;
+  top: 232px;
   left: 162px;
 }
 
@@ -202,7 +202,7 @@
   transform: rotate(43deg);
 
   position: absolute;
-  top: 240px;
+  top: 232px;
   left: 826px;
 }
 
@@ -216,7 +216,7 @@
   transform: rotate(-134deg);
 
   position: absolute;
-  top: 240px;
+  top: 232px;
   left: 826px;
 }
 
@@ -232,7 +232,7 @@
   transform: rotate(44deg);
 
   position: absolute;
-  top: 265px;
+  top: 255px;
   left: 10px;
 }
 
@@ -246,7 +246,7 @@
   transform: rotate(-136deg);
 
   position: absolute;
-  top: 265px;
+  top: 255px;
   left: 1030px;
 }
 
@@ -259,82 +259,82 @@
 }
 
 .leftLaneTopHash_1 {
-  top: 230px;
+  top: 220px;
   left: 70px;
 }
 
 .leftLaneTopHash_2 {
-  top: 230px;
+  top: 220px;
   left: 82px;
 }
 
 .leftLaneTopHash_3 {
-  top: 230px;
+  top: 220px;
   left: 118px;
 }
 
 .leftLaneTopHash_4 {
-  top: 230px;
+  top: 220px;
   left: 154px;
 }
 
 .leftLaneBottomHash_1 {
-  top: 384px;
+  top: 374px;
   left: 70px;
 }
 
 .leftLaneBottomHash_2 {
-  top: 384px;
+  top: 374px;
   left: 82px;
 }
 
 .leftLaneBottomHash_3 {
-  top: 384px;
+  top: 374px;
   left: 118px;
 }
 
 .leftLaneBottomHash_4 {
-  top: 384px;
+  top: 374px;
   left: 154px;
 }
 
 .rightLaneTopHash_1 {
-  top: 230px;
+  top: 220px;
   left: 1040px;
 }
 
 .rightLaneTopHash_2 {
-  top: 230px;
+  top: 220px;
   left: 1028px;
 }
 
 .rightLaneTopHash_3 {
-  top: 230px;
+  top: 220px;
   left: 994px;
 }
 
 .rightLaneTopHash_4 {
-  top: 230px;
+  top: 220px;
   left: 958px;
 }
 
 .rightLaneBottomHash_1 {
-  top: 384px;
+  top: 374px;
   left: 1040px;
 }
 
 .rightLaneBottomHash_2 {
-  top: 384px;
+  top: 374px;
   left: 1028px;
 }
 
 .rightLaneBottomHash_3 {
-  top: 384px;
+  top: 374px;
   left: 994px;
 }
 
 .rightLaneBottomHash_4 {
-  top: 384px;
+  top: 374px;
   left: 958px;
 }
 
