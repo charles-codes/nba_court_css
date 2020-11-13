@@ -19,41 +19,20 @@
   left: 55px;
 }
 
-.roseStem {
-  width: 90px;
-  height: 90px;
+.modaCenter {
+  width: 91px;
+  height: 49px;
   position: absolute;
 }
 
-.roseTopLeft{
-  top: 30px;
-  left: 400px;
-
-  transform: rotate(105deg);
-  /* filter: invert(36%) sepia(28%) saturate(5044%) hue-rotate(342deg) brightness(68%) contrast(101%); */
+.modaTopLeft{
+  top: 64px;
+  left: 394px;
 }
 
-.roseBottomRight {
-  top: 480px;
-  left: 650px;
-
-  transform: rotate(-50deg);
-}
-
-.rose {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-}
-
-.roseTopRight {
-  top: 50px;
-  left: 670px;
-}
-
-.roseBottomLeft {
-  top: 490px;
-  left: 420px;
+.modaBottomRight {
+  top: 470px;
+  left: 660px;
 }
 
 /* midcourt <div> to divide the court in half */
