@@ -271,6 +271,54 @@
   left: 1030px;
 }
 
+/* hasharks for free throw lane positions */
+.laneHash {
+  width: 12px;
+  height: 12px;
+  border-right: solid 2px black;
+  position: absolute;
+}
+
+.leftLaneTopHash_1 {
+  top: 230px;
+  left: 70px;
+}
+
+.leftLaneTopHash_2 {
+  top: 230px;
+  left: 82px;
+}
+
+.leftLaneTopHash_3 {
+  top: 230px;
+  left: 118px;
+}
+
+.leftLaneTopHash_4 {
+  top: 230px;
+  left: 154px;
+}
+
+.leftLaneBottomHash_1 {
+  top: 384px;
+  left: 70px;
+}
+
+.leftLaneBottomHash_2 {
+  top: 384px;
+  left: 82px;
+}
+
+.leftLaneBottomHash_3 {
+  top: 384px;
+  left: 118px;
+}
+
+.leftLaneBottomHash_4 {
+  top: 384px;
+  left: 154px;
+}
+
 /* <div> used for creating the three point lines */
 .leftThreePointBox {
   width: 128px;
