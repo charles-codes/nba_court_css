@@ -319,6 +319,46 @@
   left: 154px;
 }
 
+.rightLaneTopHash_1 {
+  top: 230px;
+  left: 1040px;
+}
+
+.rightLaneTopHash_2 {
+  top: 230px;
+  left: 1028px;
+}
+
+.rightLaneTopHash_3 {
+  top: 230px;
+  left: 994px;
+}
+
+.rightLaneTopHash_4 {
+  top: 230px;
+  left: 958px;
+}
+
+.rightLaneBottomHash_1 {
+  top: 384px;
+  left: 1040px;
+}
+
+.rightLaneBottomHash_2 {
+  top: 384px;
+  left: 1028px;
+}
+
+.rightLaneBottomHash_3 {
+  top: 384px;
+  left: 994px;
+}
+
+.rightLaneBottomHash_4 {
+  top: 384px;
+  left: 958px;
+}
+
 /* <div> used for creating the three point lines */
 .leftThreePointBox {
   width: 128px;
