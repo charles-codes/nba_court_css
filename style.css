@@ -346,7 +346,7 @@
   border-bottom: solid 2px var(--red);
 
   position: absolute;
-  top: 54px;
+  top: 49px;
 }
 
 .rightThreePointBox {
@@ -356,7 +356,7 @@
   border-bottom: solid 2px var(--red);
 
   position: absolute;
-  top: 54px;
+  top: 49px;
   left: 996px;
 }
 
@@ -370,7 +370,7 @@
   transform: rotate(45deg);
 
   position: absolute;
-  top: 54px;
+  top: 49px;
   left: -134px;
 }
 
@@ -384,7 +384,7 @@
   transform: rotate(-135deg);
 
   position: absolute;
-  top: 54px;
+  top: 49px;
   left: 752px;
 }
 
