@@ -2,6 +2,10 @@
 # nba_court_css
 ==========================
 
+https://charles-codes.github.io/nba_court_css/
+
+==========================
+
 A strict CSS mockup of an official NBA court. 
 
 Using only HTML and CSS, I am creating a basketball court that meets the official NBA court size dimensions, proportionally, of course. 
