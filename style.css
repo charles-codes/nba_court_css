@@ -63,6 +63,15 @@
   border-right: solid black 2px;
 }
 
+/* NBA official logo for court apron */
+.logo {
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  top: -52px;
+  left: 528px;
+}
+
 /* center court circle comprised of an inner circle and and outer circle */
 .innercentercourt {
   width: 24px;
