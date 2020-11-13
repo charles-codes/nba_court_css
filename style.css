@@ -101,6 +101,25 @@
   left: 1080px;
 }
 
+.rose {
+  width: 50px;
+  height: 71px;
+  position: absolute;
+}
+
+.rose_1 {
+  transform: rotate(110deg);
+
+  top: 586px;
+  left: 320px;
+}
+
+.rose_2 {
+  transform: rotate(-50deg);
+  top: 590px;
+  left: 774px;
+}
+
 /* center court circle comprised of an inner circle and and outer circle */
 .innercentercourt {
   width: 24px;
@@ -450,7 +469,6 @@
 .rightTopHash {
   top: 196px;
   left: 1112px;
-
 }
 
 .rightBottomHash {
