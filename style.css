@@ -12,7 +12,11 @@
   height: 600px;
   border: solid black 2px;
   background-image: url(images/bg-court.jpg);
-  outline: solid 10px black;
+  outline: solid 50px black;
+
+  position: absolute;
+  top: 55px;
+  left: 55px;
 }
 
 .roseStem {
@@ -22,7 +26,7 @@
 }
 
 .roseTopLeft{
-  top: 60px;
+  top: 40px;
   left: 400px;
 
   transform: rotate(105deg);
@@ -30,25 +34,25 @@
 }
 
 .roseBottomRight {
-  top: 470px;
+  top: 480px;
   left: 650px;
 
   transform: rotate(-50deg);
 }
 
 .rose {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   position: absolute;
 }
 
 .roseTopRight {
-  top: 80px;
+  top: 60px;
   left: 670px;
 }
 
 .roseBottomLeft {
-  top: 480px;
+  top: 490px;
   left: 420px;
 }
 
@@ -118,7 +122,7 @@
 
   position: absolute;
   top: 240px;
-  left: 906px;
+  left: 896px;
 }
 
 /* free throw shooting zone circles for the lanes */
@@ -129,11 +133,11 @@
   border-radius: 50%;
   border-bottom-color: transparent;
   border-left-color: transparent;
-  transform: rotate(43deg);
+  transform: rotate(45deg);
 
   position: absolute;
   top: 240px;
-  left: 162px;
+  left: 156px;
 }
 
 .leftLaneHalfCircle_2 {
@@ -143,7 +147,7 @@
   border-radius: 50%;
   border-bottom-color: transparent;
   border-left-color: transparent;
-  transform: rotate(-130deg);
+  transform: rotate(-134deg);
 
   position: absolute;
   top: 240px;
@@ -161,7 +165,7 @@
 
   position: absolute;
   top: 240px;
-  left: 836px;
+  left: 826px;
 }
 
 .rightLaneHalfCircle_2 {
@@ -175,7 +179,7 @@
 
   position: absolute;
   top: 240px;
-  left: 836px;
+  left: 826px;
 }
 
 /* half circle <div> for restricted zones */
@@ -191,7 +195,7 @@
 
   position: absolute;
   top: 265px;
-  left: 16px;
+  left: 10px;
 }
 
 .rightRestrictedZone {
@@ -205,7 +209,7 @@
 
   position: absolute;
   top: 265px;
-  left: 1036px;
+  left: 1030px;
 }
 
 /* <div> used for creating the three point lines */
@@ -227,7 +231,7 @@
 
   position: absolute;
   top: 54px;
-  left: 1006px;
+  left: 996px;
 }
 
 .leftThreePointArc {
@@ -241,7 +245,7 @@
 
   position: absolute;
   top: 54px;
-  left: -115px;
+  left: -134px;
 }
 
 .rightThreePointArc {
@@ -255,7 +259,7 @@
 
   position: absolute;
   top: 54px;
-  left: 760px;
+  left: 752px;
 }
 
 /* hashmarks */
@@ -266,7 +270,7 @@
   border-right: solid 2px var(--red);
 
   position: absolute;
-  top: 10px;
+  top: 0;
   left: 360px;
 }
 
@@ -276,7 +280,7 @@
   border-right: solid 2px var(--red);
 
   position: absolute;
-  top: 570px;
+  top: 560px;
   left: 360px;
 }
 
@@ -286,7 +290,7 @@
   border-right: solid 2px var(--red);
 
   position: absolute;
-  top: 10px;
+  top: 0;
   left: 716px;
 }
 
@@ -296,6 +300,6 @@
   border-right: solid 2px var(--red);
 
   position: absolute;
-  top: 570px;
+  top: 560px;
   left: 716px;
 }
