@@ -12,7 +12,7 @@
   height: 600px;
   border: solid black 2px;
   background-image: url(images/bg-court.jpg);
-  outline: solid 50px black;
+  outline: solid 50px gray;
 
   position: absolute;
   top: 55px;
