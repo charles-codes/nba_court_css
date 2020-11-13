@@ -95,6 +95,33 @@
   transform: rotate(90deg);
 }
 
+.cornerLogo {
+  width: 145px;
+  height: 65px;
+
+  position: absolute;
+}
+
+.apronLogo_3 {
+  top: -54px;
+  left: -100px;
+}
+
+.apronLogo_4 {
+  top: -54px;
+  left: 1080px;
+}
+
+.apronLogo_5 {
+  top: 584px;
+  left: -100px;
+}
+
+.apronLogo_6 {
+  top: 584px;
+  left: 1080px;
+}
+
 /* center court circle comprised of an inner circle and and outer circle */
 .innercentercourt {
   width: 24px;
