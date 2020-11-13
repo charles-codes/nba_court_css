@@ -15,26 +15,41 @@
   outline: solid 10px black;
 }
 
-.rose {
+.roseStem {
   width: 90px;
   height: 90px;
   position: absolute;
 }
 
-.rose_top {
+.roseTopLeft{
   top: 60px;
   left: 400px;
 
   transform: rotate(105deg);
-
   /* filter: invert(36%) sepia(28%) saturate(5044%) hue-rotate(342deg) brightness(68%) contrast(101%); */
 }
 
-.rose_bottom {
+.roseBottomRight {
   top: 470px;
   left: 650px;
 
   transform: rotate(-50deg);
+}
+
+.rose {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+
+.roseTopRight {
+  top: 80px;
+  left: 670px;
+}
+
+.roseBottomLeft {
+  top: 480px;
+  left: 420px;
 }
 
 /* midcourt <div> to divide the court in half */
