@@ -429,3 +429,31 @@
   top: 560px;
   left: 716px;
 }
+
+.baselineHash {
+  width: 12px;
+  height: 12px;
+  border-top: solid 2px black;
+  position: absolute;
+}
+
+.leftTopHash {
+  top: 196px;
+  left: 0;
+}
+
+.leftBottomHash {
+  top: 410px;
+  left: 0;
+}
+
+.rightTopHash {
+  top: 196px;
+  left: 1112px;
+
+}
+
+.rightBottomHash {
+  top: 410px;
+  left: 1112px;
+} 
