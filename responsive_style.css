@@ -475,3 +475,477 @@
   top: 410px;
   left: 1112px;
 } 
+
+/* media query to display the court at half size in a smaller screen width */
+
+@media screen and (max-width: 700px) {
+  /* wrapper <div> with class of court */
+.court{
+  width: 564px;
+  height: 300px;
+  border: solid black 1px;
+  background-image: url(images/bg-court.jpg);
+  outline: solid 25px gray;
+
+  position: absolute;
+  top: 27.5px;
+  left: 27.5px;
+}
+
+.modaCenter {
+  width: 45.5px;
+  height: 24.5px;
+  position: absolute;
+}
+
+.modaTopLeft{
+  top: 32px;
+  left: 197px;
+}
+
+.modaBottomRight {
+  top: 235px;
+  left: 330px;
+}
+
+/* midcourt <div> to divide the court in half */
+.midcourt {
+  width: 282px;
+  height: 299px;
+  border-right: solid black 1px;
+}
+
+/* NBA official logo for court apron */
+.logo {
+  width: 35px;
+  height: 25px;
+  position: absolute;
+  top: -26px;
+  left: 264px;
+}
+
+/* logos for Court Apron */
+.apronLogo_1 {
+  width: 145px;
+  height: 65px;
+
+  position: absolute;
+  top: 112.5px;
+  left: -84.5px;
+
+  transform: rotate(-90deg);
+}
+
+.apronLogo_2 {
+  width: 145px;
+  height: 65px;
+
+  position: absolute;
+  top: 122.5px;
+  left: 502px;
+
+  transform: rotate(90deg);
+}
+
+.cornerLogo {
+  width: 72.5px;
+  height: 32.5px;
+
+  position: absolute;
+}
+
+.apronLogo_3 {
+  top: -27px;
+  left: -50px;
+}
+
+.apronLogo_4 {
+  top: -27px;
+  left: 540px;
+}
+
+.apronLogo_5 {
+  top: 292px;
+  left: -50px;
+}
+
+.apronLogo_6 {
+  top: 292px;
+  left: 540px;
+}
+
+.rose {
+  width: 25px;
+  height: 35.5px;
+  position: absolute;
+}
+
+.rose_1 {
+  transform: rotate(110deg);
+
+  top: 293px;
+  left: 160px;
+}
+
+.rose_2 {
+  transform: rotate(-50deg);
+  top: 295px;
+  left: 387px;
+}
+
+/* center court circle comprised of an inner circle and and outer circle */
+.innercentercourt {
+  width: 12px;
+  height: 12px;
+  border: solid 1px gray;
+  opacity: 50%;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 145px;
+  left: 280.5px;
+}
+
+.outercentercourt {
+  width: 36px;
+  height: 36px;
+  border: solid 1px gray;
+  opacity: 50%;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 132.5px;
+  left: 268px;
+}
+
+.centerCourtLogo {
+  width: 235px;
+  height: 235px;
+
+  position: absolute;
+  top: 35px;
+  left: 169px;
+}
+
+/* rectangular <div> for the lanes */
+.lane {
+  background-color: var(--red);
+}
+
+.leftlane {
+  width: 114px;
+  height: 72px;
+  border-top: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+
+  position: absolute;
+  top: 116px;
+}
+
+.rightlane {
+  width: 114px;
+  height: 72px;
+  border-top: solid 1px black;
+  border-left: solid 1px black;
+  border-bottom: solid 1px black;
+
+  position: absolute;
+  top: 116px;
+  left: 448px;
+}
+
+/* free throw shooting zone circles for the lanes */
+.leftLaneHalfCircle_1 {
+  width: 72px;
+  height: 72px;
+  border: solid 1px black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(45deg);
+
+  position: absolute;
+  top: 116px;
+  left: 78px;
+}
+
+.leftLaneHalfCircle_2 {
+  width: 72px;
+  height: 72px;
+  border: dashed 1px black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-134deg);
+
+  position: absolute;
+  top: 116px;
+  left: 78px;
+}
+
+.rightLaneHalfCircle_1 {
+  width: 72px;
+  height: 72px;
+  border: dashed 1px black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(43deg);
+
+  position: absolute;
+  top: 116px;
+  left: 413px;
+}
+
+.rightLaneHalfCircle_2 {
+  width: 72px;
+  height: 72px;
+  border: solid 1px black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-134deg);
+
+  position: absolute;
+  top: 116px;
+  left: 413px;
+}
+
+/* half circle <div> for restricted zones */
+
+.leftRestrictedZone {
+  width: 48px;
+  height: 48px;
+  border: solid 1px black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(44deg);
+
+  position: absolute;
+  top: 127.5px;
+  left: 5px;
+}
+
+.rightRestrictedZone {
+  width: 48px;
+  height: 48px;
+  border: solid 1px black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-136deg);
+
+  position: absolute;
+  top: 127.5px;
+  left: 515px;
+}
+
+/* hasharks for free throw lane positions */
+.laneHash {
+  width: 6px;
+  height: 6px;
+  border-right: solid 1px black;
+  position: absolute;
+}
+
+.leftLaneTopHash_1 {
+  top: 110px;
+  left: 36px;
+}
+
+.leftLaneTopHash_2 {
+  top: 110px;
+  left: 41px;
+}
+
+.leftLaneTopHash_3 {
+  top: 110px;
+  left: 59px;
+}
+
+.leftLaneTopHash_4 {
+  top: 110px;
+  left: 77px;
+}
+
+.leftLaneBottomHash_1 {
+  top: 187px;
+  left: 35px;
+}
+
+.leftLaneBottomHash_2 {
+  top: 187px;
+  left: 41px;
+}
+
+.leftLaneBottomHash_3 {
+  top: 187px;
+  left: 59px;
+}
+
+.leftLaneBottomHash_4 {
+  top: 187px;
+  left: 77px;
+}
+
+.rightLaneTopHash_1 {
+  top: 110px;
+  left: 520px;
+}
+
+.rightLaneTopHash_2 {
+  top: 110px;
+  left: 514px;
+}
+
+.rightLaneTopHash_3 {
+  top: 110px;
+  left: 497px;
+}
+
+.rightLaneTopHash_4 {
+  top: 110px;
+  left: 479px;
+}
+
+.rightLaneBottomHash_1 {
+  top: 187px;
+  left: 520px;
+}
+
+.rightLaneBottomHash_2 {
+  top: 187px;
+  left: 514px;
+}
+
+.rightLaneBottomHash_3 {
+  top: 187px;
+  left: 497px;
+}
+
+.rightLaneBottomHash_4 {
+  top: 187px;
+  left: 479px;
+}
+
+/* <div> used for creating the three point lines */
+.leftThreePointBox {
+  width: 64px;
+  height: 252px;
+  border-top: solid 1px var(--red);
+  border-bottom: solid 1px var(--red);
+
+  position: absolute;
+  top: 24.5px;
+}
+
+.rightThreePointBox {
+  width: 64px;
+  height: 252px;
+  border-top: solid 1px var(--red);
+  border-bottom: solid 1px var(--red);
+
+  position: absolute;
+  top: 24.5px;
+  left: 498px;
+}
+
+.leftThreePointArc {
+  width: 252px;
+  height: 252px;
+  border: solid 1px var(--red);
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(45deg);
+
+  position: absolute;
+  top: 24.5px;
+  left: -67px;
+}
+
+.rightThreePointArc {
+  width: 252px;
+  height: 252px;
+  border: solid 1px var(--red);
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-135deg);
+
+  position: absolute;
+  top: 24.5px;
+  left: 376px;
+}
+
+/* hashmarks */
+
+.topLeftHash {
+  width: 18px;
+  height: 18px;
+  border-right: solid 1px var(--red);
+
+  position: absolute;
+  top: 0;
+  left: 180px;
+}
+
+.bottomLeftHash {
+  width: 18px;
+  height: 18px;
+  border-right: solid 1px var(--red);
+
+  position: absolute;
+  top: 280px;
+  left: 180px;
+}
+
+.topRightHash {
+  width: 18px;
+  height: 18px;
+  border-right: solid 1px var(--red);
+
+  position: absolute;
+  top: 0;
+  left: 358px;
+}
+
+.bottomRightHash {
+  width: 18px;
+  height: 18px;
+  border-right: solid 1px var(--red);
+
+  position: absolute;
+  top: 280px;
+  left: 358px;
+}
+
+.baselineHash {
+  width: 6px;
+  height: 6px;
+  border-top: solid 1px black;
+  position: absolute;
+}
+
+.leftTopHash {
+  top: 98px;
+  left: 0;
+}
+
+.leftBottomHash {
+  top: 205px;
+  left: 0;
+}
+
+.rightTopHash {
+  top: 98px;
+  left: 556px;
+}
+
+.rightBottomHash {
+  top: 205px;
+  left: 556px;
+} 
+}
